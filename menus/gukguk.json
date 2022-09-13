@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle gukguk",
+        "command": "gukguk:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "gukguk",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "gukguk:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
